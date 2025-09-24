@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Azizi Sisters</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.12.1/font/bootstrap-icons.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Allura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="Aziz Sister.css">
+</head>
+<body>
+<div class="header1">
+    <p>Free Shipping on orders over 200$. <Strong><u>Learn more</u></Strong></p>
+</div>
+
+<!-- Place this at the top of <body> -->
+<div class="header-bar">
+  <div class="logo">
+    <img src="https://i.ibb.co/VW8PD4Mr/unnamed-56.png" alt="Azizi Sisters Logo">
+  </div>
+  <div class="header-icons">
+    <button class="icon-btn" id="searchIcon" aria-label="Search">
+      <svg width="28" height="25" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+    <button class="icon-btn" id="accountIcon" aria-label="Account">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="4"></circle>
+        <path d="M2 20c0-4 8-6 10-6s10 2 10 6"></path>
+      </svg>
+    </button>
+    <span class="cart-label">
+      My Cart
+      <button class="icon-btn" id="cartIcon" aria-label="Cart">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+      </button>
+      <span class="cart-count">0</span>
+    </span>
+  </div>
+</div>
+<!-- Replace your icon-bar HTML with this for matching style -->
+<div class="container111">
+  <div class="icon-bar header-icons">
+    <button class="icon-btn" id="searchIcon" aria-label="Search">
+      <svg width="28" height="25" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </button>
+    <button class="icon-btn" id="accountIcon" aria-label="Account">
+      <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="8" r="4"></circle>
+        <path d="M2 20c0-4 8-6 10-6s10 2 10 6"></path>
+      </svg>
+    </button>
+    <span class="cart-label">
+      My Cart
+      <button class="icon-btn" id="cartIcon" aria-label="Cart">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#222" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="9" cy="21" r="1"></circle>
+          <circle cx="20" cy="21" r="1"></circle>
+          <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+        </svg>
+      </button>
+      <span class="cart-count">0</span>
+    </span>
+  </div>
+</div>
+  </div>
+</div>
+
+<!-- Search Modal -->
+<div class="search-modal" id="searchModal">
+  <div class="search-modal-content">
+    <button class="search-modal-close" id="closeSearchModal">&times;</button>
+    <input type="text" class="search-modal-input" placeholder="Search">
+  </div>
+</div>
+
+<!-- Popup boxes -->
+<div id="accountBox" class="popup-box">Account Box Content</div>
+<div id="cartBox" class="popup-box">Cart Box Content</div>
+
+<nav class="navbar">
+    <div class="navbar-flex container"></div>
+    <div class="main-menu-items">
+        <ul class="main-menu-list">
+            <li><a href="#">HOME</a></li>
+            <li><a href="#">NEW ARRIVALS</a></li>
+            <li><a href="#">COLLECTIONS</a></li>
+            <li><a href="#">BEST SELLER</a></li>
+            <li><a href="#">DISCOBER</a></li>
+            <li><a href="#" target="-blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/azizisistrs/" target="-blank"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+    </div>
+</nav>
+<br>
+<div class="image2">
+  <div class="image">
+    <img src="https://i.ibb.co/chSSrrxy/kkkk.png" alt="">
+  </div>
+  <div class="image1">
+    <img src="https://i.ibb.co/ds2kmChx/fajaas.png" alt="">
+  </div>
+</div>
+<div class="image-textc">
+      <div class="image-textcc">Honey I am Dreaming</div>
+</div>
+<div class="image-textc2">
+      <div class="image-textcc2">SHOP THE COLLECTION</div>
+</div>
+<div class="Text-Middle">New Arrivals</div>
+<hr class="HR11">
+<p class="Text-new">Explore the freshest styles in our New Arrivals collection—featuring closet staples and standout pieces. From flirty minis and elegant maxis<br> to classic denim and chic tops, these new pieces are designed to elevate your wardrobe with the season’s must-have trends.
+</p>
+<div class="image-row">
+  <div class="img11"></div>
+  <div class="img12"></div>
+  <div class="img13"></div>
+  <div class="img14"></div>
+</div>
+<div class="image-row">
+  <div class="img15"></div>
+  <div class="img16"></div>
+  <div class="img17"></div>
+  <div class="img18"></div>
+</div>
+<div class="image-row">
+  <div class="img19"></div>
+  <div class="img20"></div>
+  <div class="img21"></div>
+  <div class="img22"></div>
+</div>
+<div class="Text-Down">
+<div class="Text-Down1">JOIN US FOR $10 OFF</div>
+<hr class="HR12">
+<p class="Text-new2">Be the first to know about new arrivals, sales & promotions. Plus, get $10 off your first order!</p>
+<div class="email-signup">
+  <form>
+    <input type="email" placeholder="Enter your email address" required>
+    <button type="submit">Join</button>
+  </form>
+</div>
+</div>
+</div>
+
+<!-- Add at the end of your HTML file, before </body> -->
+<div class="social-gallery-section">
+  <div class="social-icons-row">
+    <a href="https://instagram.com/honeystores" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://facebook.com/honeystores" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://pinterest.com/honeystores" target="_blank"><i class="fab fa-pinterest"></i></a>
+    <a href="https://tiktok.com/@honeystores" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>
+  <div class="follow-text">
+    FOLLOW & TAG US AT @AZIZISISTERS
+  </div>
+  <div class="insta-slider-wrapper">
+    <button class="insta-slider-btn left" id="instaPrev">&#60;</button>
+    <div class="insta-slider" id="instaSlider">
+      <img src="https://i.ibb.co/h1954DyG/IMG-1327.jpg" alt="">
+     <a href="https://google.com" target="_blank">
+		<img src="https://i.ibb.co/3mX8dYyg/Screenshot-2025-09-21-050352.png" alt="">
+	</a>
+      <img src="https://i.ibb.co/ds2kmChx/fajaas.png" alt="">
+      <img src="https://i.ibb.co/PGWbK1N5/IMG-1331.jpg" alt="">
+      <img src="https://i.ibb.co/xSsRW93R/IMG-1343.jpg" alt="">
+      <img src="https://i.ibb.co/JwdKRMMR/IMG-1328.jpg" alt="">
+      <img src="https://i.ibb.co/JRp1dzLw/Screenshot-2025-09-16-022937.png" alt="">
+      <img src="https://i.ibb.co/0vr2zSK/IMG-1322.jpg" alt="">
+      <img src="https://i.ibb.co/sdX4Y9j3/IMG-1320.jpg" alt="">
+      <img src="https://i.ibb.co/HpdBTBBQ/IMG-1324.jpg" alt="">
+    </div>
+    <button class="insta-slider-btn right" id="instaNext">&#62;</button>
+  </div>
+</div>
+
+<script>
+  // Simple slider logic
+  const slider = document.getElementById('instaSlider');
+  const prevBtn = document.getElementById('instaPrev');
+  const nextBtn = document.getElementById('instaNext');
+  let scrollAmount = 0;
+  const scrollStep = 240; // width of one image + gap
+
+  prevBtn.onclick = () => {
+    slider.scrollBy({ left: -scrollStep, behavior: 'smooth' });
+  };
+  nextBtn.onclick = () => {
+    slider.scrollBy({ left: scrollStep, behavior: 'smooth' });
+  };
+</script>
+<script>
+  // Search Modal logic
+  document.getElementById('searchIcon').addEventListener('click', function(e) {
+    document.getElementById('searchModal').classList.add('active');
+    document.querySelector('.search-modal-input').focus();
+  });
+  document.getElementById('closeSearchModal').addEventListener('click', function() {
+    document.getElementById('searchModal').classList.remove('active');
+  });
+  document.getElementById('searchModal').addEventListener('click', function(e) {
+    if (e.target === this) {
+      this.classList.remove('active');
+    }
+  });
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      document.getElementById('searchModal').classList.remove('active');
+    }
+  });
+
+  // Cart count logic
+  const cartIcon = document.getElementById('cartIcon');
+  const cartCount = document.querySelector('.cart-count');
+  let count = 0;
+  cartIcon.addEventListener('click', () => {
+    count++;
+    cartCount.textContent = count;
+  });
+</script>
+
+
+<!-- Add before </body> at the end of your HTML file -->
+<footer class="footer-section">
+  <div class="footer-links">
+    <div>
+      <h3>Have a Question?</h3>
+      <hr>
+      <p><a href="mailto:info@shophoney.com">Info.ssqd@gmail.com</a></p>
+      <p>Mon - Fri, 8:30AM - 4:30PM EST (holidays excluded)</p>
+    </div>
+    <div>
+      <h3>Customer Care</h3>
+      <hr>
+      <p><a href="#">Start an Online Return</a></p>
+      <p><a href="#">Return Policy</a></p>
+      <p><a href="#">Shipping Policy</a></p>
+      <p><a href="#">FAQ</a></p>
+      <p><a href="#">Gift Cards</a></p>
+      <p><a href="#">Contact</a></p>
+    </div>
+    <div>
+      <h3>About Us</h3>
+      <hr>
+      <p><a href="#">About</a></p>
+      <p><a href="#">Careers</a></p>
+      <p><a href="#">Find a Store</a></p>
+      <p><a href="#">Terms of Service</a></p>
+      <p><a href="#">Privacy Policy</a></p>
+    </div>
+    <div>
+      <h3>Stay in Touch!</h3>
+      <hr>
+      <p>Join our mailing list for $10 your first order!<br>Exclusions apply.</p>
+      <form class="footer-signup">
+        <input type="email" placeholder="Join our mailing list" required>
+        <button type="submit">Join</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-social-row">
+    <a href="https://facebook.com/azizisistrs" target="_blank"><i class="fab fa-facebook"></i></a>
+    <a href="https://instagram.com/azizisistrs" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://pinterest.com/azizisistrs" target="_blank"><i class="fab fa-pinterest"></i></a>
+    <a href="https://tiktok.com/@azizisistrs" target="_blank"><i class="fab fa-tiktok"></i></a>
+  </div>
+  <div class="footer-bottom">
+    <a href="#" class="shop-btn"><i class="fa-regular fa-heart"></i> Follow on shop</a>
+    <span>© 2025 Azizi Sisters • Powered by SharafM</span>
+   <!-- Replace only the payment icons part in your footer -->
+<!-- Replace only the payment icons part in your footer -->
+<div class="footer-payments">
+  <img src="https://i.ibb.co/Gv7jJrMS/Screenshot-2025-09-21-053040.png" alt="Amex">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3a/Apple_Pay_logo.svg" alt="Apple Pay">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Google_Pay_Logo.svg" alt="Google Pay">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b5/PayPal.svg" alt="PayPal">
+  <img src="https://cdn.shopify.com/s/files/1/0533/2089/files/shop-pay-logo.png" alt="Shop Pay">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa">
+</div>
+    <span class="footer-top-link"><a href="#">TOP</a></span>
+  </div>
+</footer>
+</body>
+</html>
